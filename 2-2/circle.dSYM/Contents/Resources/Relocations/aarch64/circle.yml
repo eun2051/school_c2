@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/eun/Desktop/2-1/school_c2/2-2/circle'
+relocations:     []
+...
