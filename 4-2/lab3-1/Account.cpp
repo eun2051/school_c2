@@ -27,7 +27,7 @@ int Account::withdraw(int wd){
 int Account::inquiry() {
     return balance;
 }
-
+//계좌의 정보 표시
 void Account::info() {
     cout << "예금주 : " << name << ", 계좌번호" << id << ", 잔액 : " << balance << "원" << endl;
 }
