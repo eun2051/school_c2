@@ -1,1 +1,2 @@
-# school_c2
+### Repo about my school work
+- using C++
