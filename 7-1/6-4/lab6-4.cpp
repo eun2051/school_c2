@@ -15,4 +15,5 @@ int main() {
     for (int i = 0; i < 10; i++)
         cout << p[i] << ' ';
     cout << endl;
+    //실습 문제 만들기
 }
