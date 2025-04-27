@@ -11,9 +11,15 @@ int main() {
     for (int i=0; i<5; i++)
         cin >> y[i];
     int* p = ArrayUtility2::concat(x, y, 5);
-    cout << "x+y : ";
+    cout << "합친 정수 배열을 출력한다" << endl;
     for (int i = 0; i < 10; i++)
         cout << p[i] << ' ';
     cout << endl;
-    //실습 문제 만들기
+    int retSize;
+    int* result = ArrayUtility2::remove(x,y,5,retSize);
+    cout << "배열 x[]에서 y[]를 뺀 결과를 출력한다. 개수는 " << retSize << endl;
+    for (int i = 0; i < retSize; i++){
+        cout << result[i] << " ";
+    }
+    cout << endl;
 }
