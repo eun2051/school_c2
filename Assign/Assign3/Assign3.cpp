@@ -22,4 +22,7 @@ int main() {
         cout << result[i] << " ";
     }
     cout << endl;
+    
+    delete[] p;
+    delete[] result;
 }

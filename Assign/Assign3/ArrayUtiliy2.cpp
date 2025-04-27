@@ -11,7 +11,6 @@ int* ArrayUtility2::concat(int s1[], int s2[], int size) {
     return p;
 }
 
-//(int s1[], int s2[], int size, int&retSize);
 int* ArrayUtility2::remove(int s1[], int s2[], int size, int&retSize) {
     int *s3 = new int[size];
     int count = 0;
