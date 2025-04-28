@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+/*int main() {
     char name[100];
     cout << "5 명의 이름을 ';'으로 구분하여 입력하세요\n" << ">>";
     cin.getline(name, 100,';');
@@ -14,4 +14,8 @@ int main() {
 
     }
     cout << "가장 긴 이름은 " << endl; 
+} */
+
+int main() {
+    char name[100];
 }
