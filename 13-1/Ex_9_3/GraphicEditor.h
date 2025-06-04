@@ -14,5 +14,5 @@ protected:
 public:
     GraphicEditor();
     ~GraphicEditor();
-    void run(); p
+    void run();
 };

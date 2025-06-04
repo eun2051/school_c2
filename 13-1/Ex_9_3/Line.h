@@ -4,4 +4,4 @@
 class Line : public Shape {
 protected:
     void draw();
-}
+};
